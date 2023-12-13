@@ -1,0 +1,23 @@
+{
+  "env": {
+      "es2021": true,
+      "node": true
+  },
+  
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "sourceType": "module",
+        "allowImportExportEverywhere": true
+    },
+  
+  "rules": {
+      "no-console": "off",
+      "quotes": [2, "double", { "avoidEscape": true }],
+      "no-underscore-dangle":"off",
+      "linebreak-style": ["error", "windows"],
+      "indent": ["error", 4],
+      "semi": [2, "never"]
+
+  }
+  
+}

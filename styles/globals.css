@@ -1,0 +1,154 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:wght@300&family=Averia+Serif+Libre:wght@300&family=Pattaya&display=swap');
+*{
+  box-sizing: border-box;
+ margin:0;
+ padding: 0;
+}
+
+
+
+/* html {
+  position:fixed;
+  min-height:100%;  
+    overflow-y:hidden;
+    overflow-x:hidden;
+   
+
+   
+}
+
+body {
+
+  margin: 0;
+  width: 100vw; 
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  background-color: #395144; 
+  
+}
+
+.scroll{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-y: auto;
+  overflow-x:hidden;
+  scroll-behavior: smooth !important;
+}
+ */
+
+/* .j {
+  background: url("../public/jumbotron/hero.jpg") no-repeat right, linear-gradient(to left, transparent 50%, black 100%);
+  background-position: 0px 50%;
+
+  background-size: cover;
+  
+} */
+.swiper-pagination-bullet-active {
+  background-color: #AA8B56 !important;
+ 
+}
+
+.swiper-button-prev {
+  color: white !important; 
+}
+
+.swiper-button-next {
+  color: white !important; 
+}
+
+
+
+body{
+  font-family: 'Averia Serif Libre','sans-serif';
+  background-color: #395144; 
+  height:fit-content;
+  
+}
+
+
+
+
+/* .jt{
+  font-family: 'Averia Serif Libre'
+}
+
+.bn{
+  background-image: url('../public/benefits/benefits-shape.svg');
+  font-family: 'Averia Serif Libre';
+  text-shadow: 1px 0px 1px gray;
+
+}
+
+.faq{
+  background-image: url('../public/faq/Union.svg');
+  background-size:cover;
+  background-position:center;
+}
+
+.prodimg{
+  object-fit: fill;
+  position: relative !important;
+  height:  100% !important;
+  width: 100% !important;
+}
+
+.modal {
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+}
+
+.slideModal {
+  animation-name: slideIn;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+@media only screen and (max-width:768px){
+  .j {
+    background: url("../public/jumbotron/hero.jpg") no-repeat right, linear-gradient(to left, transparent 50%, black 100%);
+  background-position: 0% 0%;
+  background-size: cover;
+
+}
+}
+@media only screen and (max-width:360px){
+  .j {
+  background: url("../public/jumbotron/hero.jpg") no-repeat right, linear-gradient(to bottom, transparent 50%, black 100%);
+  background-position: 0px 50%;
+
+  background-size: cover;
+}
+}
+
+
+ */

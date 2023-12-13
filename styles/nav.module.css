@@ -1,0 +1,127 @@
+
+@media screen and (min-width:640px){
+.ham{
+    transform:rotate(180deg)
+}
+.hamNav1{
+width:100;
+transition: all 0.5s ease-in-out;
+}
+
+.hamNav2{
+    width:100%;
+    transition: all 0.5s ease-in-out;
+}
+
+.hamNav3{
+    width:100%;
+    transition: all 0.5s ease-in-out;
+}
+
+.hamNav1.show1{
+    width:90%;
+}
+    
+    .hamNav2.show2{
+        width:60%;
+    }
+    
+    .hamNav3.show3{
+        width:70%;
+    }
+
+.ulNav{
+    right:0;
+    top:82px !important;
+    z-index:-1;
+    transition: all 1s ease-in-out;
+    opacity:visible;
+    
+}
+
+.ulNav.show4{
+    right:-1000px;
+    z-index:-1;
+    
+    transition: all 1s ease-in-out;
+    opacity:hidden;
+    
+   
+}
+
+}
+
+@media screen and (min-width:768px){
+    .ulNav{
+        right:0;
+        top:89px !important;
+        z-index:0 !important;
+        transition: all 1s ease-in-out;
+        opacity:visible;
+      
+        
+    }
+    
+    .ulNav.show4{
+        right:-1000px;
+        z-index:0 !important;
+        
+        transition: all 1s ease-in-out;
+        opacity:hidden;
+        
+    }
+    
+}
+
+@media screen and (min-width:360px){
+
+    .hamNav1{
+        width:100;
+        transition: all 0.5s ease-in-out;
+        }
+        
+        .hamNav2{
+            width:100%;
+            transition: all 0.5s ease-in-out;
+        }
+        
+        .hamNav3{
+            width:100%;
+            transition: all 0.5s ease-in-out;
+        }
+        
+        .hamNav1.show1{
+            width:90%;
+        }
+            
+            .hamNav2.show2{
+                width:60%;
+            }
+            
+            .hamNav3.show3{
+                width:70%;
+            }
+
+            
+    .ulNav{
+        right:0;
+        top:79px;
+        z-index:0 !important;
+        transition: all 1s ease-in-out;
+        opacity:visible;
+      
+        
+    }
+    
+    .ulNav.show4{
+        right:-1000px;
+        z-index:0 !important;
+        
+        transition: all 1s ease-in-out;
+        opacity:hidden;
+        
+    }
+    .ham{
+        transform:rotate(180deg)
+    }
+}

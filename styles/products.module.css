@@ -1,0 +1,36 @@
+.scrollbarHide::-webkit-scrollbar {
+    display: none;
+    scroll-snap-align: start;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbarHide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  scroll-snap-align: start;
+}
+
+
+.slideInDiv{
+  transform:translateY(-100%);
+      opacity:0;
+      transition: all 1.2s ease-in;
+  
+}
+
+.slideInDiv.slide{
+  transform:translateY(0%);
+  opacity:1;
+transition: all 1.2s ease-in;
+}
+/* @media screen and (min-width: 360px) {
+    .swiperContainer {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 640px) {
+    .swiperContainer {
+      width: 100%;
+    }
+  } */

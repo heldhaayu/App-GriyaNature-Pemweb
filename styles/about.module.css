@@ -1,0 +1,18 @@
+.divAbout{
+    background-image: url('../public/faq/union.svg');
+    background-size:cover;
+    background-position:center;
+}
+
+.showDiv{
+    transform:scale(0);
+        opacity:0;
+        transition: all 1.2s ease-in;
+    
+}
+
+.showDiv.show{
+    transform:scale(1);
+    opacity:1;
+transition: all 1.2s ease-in;
+}

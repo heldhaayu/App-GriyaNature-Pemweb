@@ -1,0 +1,33 @@
+.benImg{
+    background-image: url('../public/benefits/b1.svg');
+    background-size:cover;
+}
+
+
+
+.slideInDiv{
+    transform:translateY(-100%);
+        opacity:0;
+        transition: all 1.2s ease-in;
+    
+}
+
+.slideInDiv.slide{
+    transform:translateY(0%);
+    opacity:1;
+transition: all 1.2s ease-in;
+}
+
+@keyframes slideIn{
+    0%{
+        transform:translateY(-100%);
+        opacity:0;
+        transition: all 1s ease-in;
+    }
+    
+        100%{
+            transform:translateY(0%);
+            opacity:1;
+        transition: all 1s ease-in;
+        }
+}
